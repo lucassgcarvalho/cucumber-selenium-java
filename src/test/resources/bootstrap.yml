@@ -1,0 +1,16 @@
+spring: 
+  application:
+    name: vam-automation-test-service
+
+  profiles:
+    active: dev
+
+  cloud:
+    config:
+      uri: http://server.config.mgmt.veloe.com.br
+
+    fail-fast: true
+      
+management:
+  security:
+    enabled: false

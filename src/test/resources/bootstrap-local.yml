@@ -1,0 +1,41 @@
+api:
+    url: http://34.201.0.244:8080/
+browser:
+    name: chrome
+capabilities:
+    screenshot: true
+driver:
+    name: chromedriver.exe
+    system:
+        value: ./src/test/resources/com/
+functionality:
+    description: valoeTestFunctionalityDescri
+    edit:
+        description: testFuncEdited
+        status: ''
+    name: valoeTestFunctionali
+home:
+    page:
+        url: http://localhost:3000
+javascript:
+    enable: true
+local:
+    login:
+        password: loginTestpassword
+        user: loginTestUser
+login:
+    password: 'Veloe#2020'
+    user: VAM Teste
+screenShots:
+    save:
+        date:
+            format: yyyyMMddHHmmss
+        folder: true
+        folder.name: VeloeScreenshot
+        image:
+            extension: .png
+        name: screenshot
+        scenario: true
+    type: image/png
+system:
+    key: webdriver.chrome.driver
